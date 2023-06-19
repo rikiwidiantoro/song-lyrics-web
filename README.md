@@ -1,3 +1,17 @@
+# Song Lyrics Web
+website lirik lagu dari
+- public API : https://song-lyrics-api.azharimm.dev/
+- docs API : https://github.com/azharimm/song-lyrics-api
+
+dibuat dengan
+- React JS
+- Bootstrap
+- Axios
+- React-router-dom
+
+&copy; Riki Widiantoro
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
