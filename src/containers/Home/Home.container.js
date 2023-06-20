@@ -7,19 +7,20 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <Container>
-      <Row>
-        <Col>
-          <h1>Home</h1>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
+      <Row className="justify-content-center pt-5">
+        <Col lg="8">
           <p>Song Lyrics Web App merupakan website yang menyediakan berbagai lirik lagu dari berbagai music di dunia.</p>
         </Col>
       </Row>
-      <Row>
-        <Col>
-          <Button variant="secondary"><Link>All Song</Link></Button>
+      <Row className="justify-content-center mt-3">
+        <Col lg="2" className='text-center'>
+          <Link to="allsong" className="text-white text-decoration-none d-grid"><Button size='sm'>All Song</Button></Link>
+        </Col>
+      </Row>
+      <Row className="justify-content-center pt-5">
+        <Col lg="8">
+          <p>dibuat oleh Riki Widiantoro</p>
+          <p>dengan React JS</p>
         </Col>
       </Row>
     </Container>

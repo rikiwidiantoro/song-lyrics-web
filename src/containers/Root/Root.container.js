@@ -1,9 +1,10 @@
+import Navigation from "../../component/Navigation/Navigation.component";
 import { Outlet } from "react-router-dom";
 
 function Root() {
   return (
     <>
-      <h1>Root</h1>
+      <Navigation/>
       <Outlet/>
     </>
   );

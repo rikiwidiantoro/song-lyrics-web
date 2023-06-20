@@ -5,7 +5,7 @@ website lirik lagu dari
 
 dibuat dengan
 - React JS
-- Bootstrap
+- React Bootstrap
 - Axios
 - React-router-dom
 
