@@ -11,6 +11,7 @@ import NotFound from "./component/NotFound/NotFound.component";
 import AllSong from "./containers/AllSong/AllSong.container";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Lyrics from "./containers/Lyrics/Lyrics.container";
 
 function App() {
   const router = createBrowserRouter(
@@ -27,6 +28,10 @@ function App() {
           <Route
             path="allsong"
             element={<AllSong/>}
+          />
+          <Route
+            path="lyrics/:id"
+            element={<Lyrics/>}
           />
         </Route>
         <Route
